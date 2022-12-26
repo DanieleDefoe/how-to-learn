@@ -41,13 +41,14 @@
 
 .header__title {
   max-width: 730px;
-  margin: auto 0 auto 64px;
+  margin: 0 0 0 64px;
   line-height: 96px;
   font-size: 102px;
   font-weight: 600;
   z-index: 2;
   padding: 0;
   box-sizing: border-box;
+  align-self: center;
 }
 
 .header__subtitle {
@@ -80,13 +81,10 @@
   bottom: 0;
   z-index: 1;
   position: absolute;
-  background-image: url(../images/header-image.png);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  object-fit: cover;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
@@ -105,10 +103,11 @@
 /* MAIN CONTENT */
 
 .description {
-  width: 80%;
-  margin: 100px auto;
-  padding: 0;
+  margin: 0;
+  padding: 100px 0 0 0;
   box-sizing: border-box;
+  display: flex;
+  justify-content: center;
 }
 
 .two-columns {
@@ -117,6 +116,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  width: 80%;
 }
 
 .two-columns__brief {
@@ -160,7 +160,7 @@
   align-items: center;
   flex-direction: column;
   margin: 0;
-  padding: 0;
+  padding: 100px 0 100px 0;
   box-sizing: border-box;
 }
 
@@ -197,10 +197,6 @@
   box-sizing: border-box;
 }
 
-.table_theme_dark {
-  margin-bottom: 90px;
-}
-
 .table__cell {
   display: flex;
   flex-direction: column;
@@ -219,6 +215,9 @@
 }
 
 .table__heading {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
@@ -235,8 +234,8 @@
 
 .feynman {
   min-height: 890px;
-  margin: 100px 0 0 0;
-  padding: 0;
+  margin: 0;
+  padding: 100px 0 0 0;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -299,12 +298,11 @@
   position: relative;
   overflow: hidden;
   margin: 0;
-  padding: 0;
+  padding: 90px 0 90px 0;
   box-sizing: border-box;
 }
 
 .section-title_theme_dark {
-  margin-top: 90px;
   color: white;
   z-index: 1;
 }
@@ -323,12 +321,12 @@
   height: 877px;
   position: absolute;
   right: -210px;
+  top: 0;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   z-index: 0;
 }
-
 
 /* FOOTER SECTION */
 .footer {
@@ -362,9 +360,6 @@
 .footer__column_content_copyright {
   flex-basis: 711px;
   justify-content: space-between;
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
 }
 
 .footer__author {
@@ -380,6 +375,9 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: 600;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .footer__column-links {
@@ -397,7 +395,7 @@
 .footer__social-icon {
   height: 16px;
   width: 16px;
-  margin: 10px 0 0 0;
+  margin: 0 10px 0 0;
   padding: 0;
   box-sizing: border-box;
 }
@@ -405,7 +403,4 @@
 .footer__column-link {
   color: white;
   text-decoration: none;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 }
