@@ -1,0 +1,9 @@
+.cards__item {
+  flex-basis: 240px;
+  box-sizing: border-box;
+  margin: 0 100px 0 0;
+}
+
+.cards__item:nth-of-type(3) {
+  margin: 0;
+}

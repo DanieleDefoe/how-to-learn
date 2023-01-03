@@ -1,0 +1,12 @@
+.feynman__image {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 867px;
+  height: 637px;
+  object-fit: contain;
+  object-position: center center;
+}

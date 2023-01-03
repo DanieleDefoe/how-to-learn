@@ -1,0 +1,11 @@
+.kaufman {
+  background-color: #1f1f1f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  padding: 90px 0 90px 0;
+  box-sizing: border-box;
+}
