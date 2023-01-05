@@ -1,7 +1,8 @@
+/* VENDOR BLOCKS */
+@import url(../vendor/normalize.css);
 /* ANIMATION BLOCKS */
 @import url(../blocks/rotation/rotation.css);
 /* CONTENT BLOCKS */
-
 /* BODY (GLOBAL) */
 @import url(../blocks/page/page.css);
 /* HEADER */
@@ -28,7 +29,6 @@
 @import url(../blocks/techniques/techniques.css);
 @import url(../blocks/cards/cards.css);
 @import url(../blocks/cards/__item/cards__item.css);
-@import url(../blocks/image-container/image-container.css);
 @import url(../blocks/cards/__image/cards__image.css);
 @import url(../blocks/cards/__title/cards__title.css);
 @import url(../blocks/cards/__description/cards__description.css);
@@ -77,6 +77,7 @@
 @import url(../blocks/resources/resources.css);
 @import url(../blocks/resources/__logo-zone/resources__logo-zone.css);
 @import url(../blocks/resources/__link/resources__link.css);
+@import url(../blocks/resources/__logo/resources__logo.css);
 /* FOOTER */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__columns/footer__columns.css);
