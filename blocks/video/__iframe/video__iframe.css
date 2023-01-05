@@ -1,5 +1,5 @@
 .video__iframe {
-  margin: 0;
+  margin: 0 20px 0 0;
   padding: 0;
   box-sizing: border-box;
   width: 515px;
@@ -8,5 +8,5 @@
 }
 
 .video__iframe:last-of-type {
-  margin-left: 20px;
+  margin: 0;
 }
